@@ -1,0 +1,16 @@
+{
+  "name": "minesweeper-moon-js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "scp -r mapper web-land:/var/www/chrisbaldys.com/public_html/.",
+    "clean": "rm -r mapper/"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  }
+}

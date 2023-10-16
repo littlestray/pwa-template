@@ -1,0 +1,12 @@
+html body {
+  margin: 0%;
+  padding: 0%;
+  background: #000;
+  color: #FFF;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+canvas {
+  height: 100%;
+  image-rendering: pixelated;
+}
