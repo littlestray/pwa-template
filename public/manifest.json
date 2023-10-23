@@ -1,0 +1,14 @@
+{
+
+    "name": "Mapper",
+    "icons" : [
+        {
+            "src": "map.svg",
+            "type": "image/svg",
+            "sizes": "512x512"
+          }
+    ],
+    "start_url": "127.0.0.1:5500/index.html",
+    "display": "fullscreen"
+
+}
