@@ -23,3 +23,7 @@ const registerServiceWorker = async () => {
 }
 
 registerServiceWorker();
+
+navigator.serviceWorker.ready.then((registration) => {
+    registration.active.postMessage("init")
+})
